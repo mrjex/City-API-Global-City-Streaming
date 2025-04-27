@@ -1,0 +1,257 @@
+{
+  "Argentina": {
+    "country_code": "AR",
+    "cities": [
+      "Buenos Aires",
+      "La Matanza Partido",
+      "Córdoba",
+      "Rosario",
+      "La Plata Partido",
+      "Lomas de Zamora Partido",
+      "General Pueyrredón Partido",
+      "Quilmes Partido",
+      "San Miguel de Tucumán",
+      "Mar del Plata"
+    ]
+  },
+  "Australia": {
+    "country_code": "AU",
+    "cities": [
+      "Melbourne",
+      "Sydney",
+      "Brisbane",
+      "Perth",
+      "Adelaide",
+      "City of Gold Coast",
+      "Gold Coast",
+      "Canberra",
+      "Ipswich",
+      "Hobart"
+    ]
+  },
+  "Brazil": {
+    "country_code": "BR",
+    "cities": [
+      "Greater Rio de Janeiro",
+      "São Paulo",
+      "Rio de Janeiro",
+      "Brasília",
+      "Fortaleza",
+      "Salvador",
+      "Belo Horizonte",
+      "Manaus",
+      "Curitiba",
+      "Recife"
+    ]
+  },
+  "Canada": {
+    "country_code": "CA",
+    "cities": [
+      "Toronto",
+      "Lower Mainland",
+      "Metro Vancouver Regional District",
+      "Montreal",
+      "National Capital Region",
+      "Calgary",
+      "Ottawa",
+      "Edmonton",
+      "Winnipeg",
+      "Mississauga"
+    ]
+  },
+  "China": {
+    "country_code": "CN",
+    "cities": [
+      "Shanghai",
+      "Beijing",
+      "Chengdu",
+      "Guangzhou",
+      "Shenzhen",
+      "Beijing Shi",
+      "Tianjin",
+      "Xi'an",
+      "Suzhou",
+      "Zhengzhou"
+    ]
+  },
+  "Finland": {
+    "country_code": "FI",
+    "cities": [
+      "Helsinki",
+      "Helsinki",
+      "Espoo",
+      "Tampere",
+      "Tampere urban area",
+      "Oulu",
+      "Turku",
+      "East Helsinki",
+      "Jyväskylä",
+      "Kuopio"
+    ]
+  },
+  "France": {
+    "country_code": "FR",
+    "cities": [
+      "Paris",
+      "Marseille",
+      "Lyon",
+      "Toulouse",
+      "Nice",
+      "Nantes",
+      "Montpellier",
+      "Strasbourg",
+      "Bordeaux",
+      "Lille"
+    ]
+  },
+  "Germany": {
+    "country_code": "DE",
+    "cities": [
+      "Berlin",
+      "Berlin",
+      "Hamburg",
+      "Hamburg",
+      "Cologne",
+      "Frankfurt",
+      "Bremen",
+      "Stuttgart",
+      "Leipzig",
+      "Dortmund"
+    ]
+  },
+  "India": {
+    "country_code": "IN",
+    "cities": [
+      "Delhi",
+      "Mumbai",
+      "Bengaluru",
+      "Hyderabad",
+      "Ahmedabad",
+      "Chennai",
+      "Pune",
+      "Surat",
+      "Kolkata",
+      "Lucknow"
+    ]
+  },
+  "Italy": {
+    "country_code": "IT",
+    "cities": [
+      "Metropolitan City of Rome",
+      "Metropolitan City of Milan",
+      "Metropolitan City of Naples",
+      "Rome",
+      "Metropolitan City of Turin",
+      "Metropolitan City of Palermo",
+      "Metropolitan City of Bari",
+      "Metropolitan City of Catania",
+      "Metropolitan City of Bologna",
+      "Metropolitan City of Florence"
+    ]
+  },
+  "Japan": {
+    "country_code": "JP",
+    "cities": [
+      "Tokyo",
+      "Yokohama",
+      "Osaka",
+      "Nagoya",
+      "Fukuoka",
+      "Kawasaki",
+      "Kobe",
+      "Kyoto",
+      "Saitama",
+      "Hiroshima"
+    ]
+  },
+  "Mexico": {
+    "country_code": "MX",
+    "cities": [
+      "Mexico City",
+      "Guadalajara metropolitan area",
+      "Ecatepec de Morelos",
+      "Tijuana",
+      "Iztapalapa de Cuitláhuac",
+      "San Cristóbal Ecatepec",
+      "León de Los Aldama",
+      "Puebla",
+      "Zapopan",
+      "Guadalajara"
+    ]
+  },
+  "Norway": {
+    "country_code": "NO",
+    "cities": [
+      "Oslo",
+      "Bergen",
+      "Trondheim",
+      "Stavanger",
+      "Stavanger town",
+      "Sandvika",
+      "Drammen",
+      "Lillestrøm",
+      "Sandefjord",
+      "Kristiansand"
+    ]
+  },
+  "Portugal": {
+    "country_code": "PT",
+    "cities": [
+      "Lisbon",
+      "Sintra",
+      "Vila Nova de Gaia",
+      "Porto city",
+      "Porto",
+      "Cascais",
+      "Loures",
+      "Almada",
+      "Matosinhos",
+      "Amadora"
+    ]
+  },
+  "South Korea": {
+    "country_code": "KR",
+    "cities": [
+      "Seoul",
+      "Busan",
+      "Incheon",
+      "Daegu",
+      "Daejeon",
+      "Gwangju",
+      "Gwangju",
+      "Ulsan",
+      "Yongin",
+      "Goyang"
+    ]
+  },
+  "Spain": {
+    "country_code": "ES",
+    "cities": [
+      "Madrid",
+      "Madrid city",
+      "Barcelona",
+      "Barcelona City",
+      "Valencia",
+      "City of Valencia",
+      "Seville",
+      "Zaragoza",
+      "Zaragoza City",
+      "Málaga"
+    ]
+  },
+  "Sweden": {
+    "country_code": "SE",
+    "cities": [
+      "Stockholm",
+      "Gothenburg",
+      "Malmö",
+      "Uppsala",
+      "Västerås",
+      "Örebro",
+      "Linköping",
+      "Helsingborg",
+      "Enskede-Årsta-Vantör city district",
+      "Jönköping"
+    ]
+  }
+}

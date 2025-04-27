@@ -1,0 +1,63 @@
+# This file is used to manually replace the city description and video for specific cities,
+# as the Giphy API and GPT-3.5 don't always return appropriate results specific to this project
+
+countries:
+  Sweden, Stockholm:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/dy1DoHULvnmIE/giphy.mp4
+  Spain, Madrid:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/STqk2oEYggjtBxcsbm/giphy.mp4
+  Brazil, Greater Rio de Janeiro:
+    description: "Greater Rio de Janeiro, Brazil's most populous metropolitan area, dazzles with its stunning blend of colonial, modernist, and contemporary architecture 🏛️ nestled between lush mountains and golden beaches. Renowned for its vibrant culture 🎭, samba rhythms, and Carnival festivities, the city is home to iconic landmarks like Christ the Redeemer atop Corcovado Mountain and the futuristic Museum of Tomorrow. With its dramatic landscapes ⛰️ and rich heritage, Rio pulses with energy and artistic expression"
+  Italy, Metropolitan City of Rome:
+    description: "Rome, Italy's most populous city, is a breathtaking tapestry of ancient ruins, Renaissance artistry, and Baroque splendor 🏛️. As the heart of the Roman Empire and the seat of the Vatican, it holds immense cultural and religious significance, with landmarks like the Colosseum, St. Peter's Basilica, and the Pantheon drawing millions each year ✝️. From cobblestone streets to majestic piazzas, Rome is a living museum where history and modern life intertwine seamlessly 🏺"
+  Australia, Melbourne:
+    description: "Melbourne, Australia's most populous city, is a dynamic blend of Victorian elegance and cutting-edge modern architecture 🏙️, with iconic laneways, skyscrapers, and historic arcades. Known as the cultural capital of Australia, it thrives on art, music, coffee culture, and world-class events like the Melbourne International Comedy Festival and Australian Open 🎭. Landmarks like Federation Square, Flinders Street Station, and the Royal Exhibition Building reflect the city's creative spirit and rich heritage 🎨"
+  USA, New York City:
+    description: "New York City, the most populous city in the USA, is a striking mosaic of towering skyscrapers, historic brownstones, and world-renowned architectural marvels 🏙️. As a global cultural hub, it pulses with energy through Broadway theaters, diverse neighborhoods, and iconic institutions like the Met and MoMA 🎭. Landmarks such as the Statue of Liberty, Empire State Building, and Central Park make it a symbol of ambition, creativity, and American spirit 🗽."
+  Indonesia, Jakarta:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT1R9RePMmgT2VQvkY/giphy.mp4
+  Russia, Moscow:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/w8C32XnBeRhZu/giphy.mp4
+  Argentina, Buenos Aires:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/QCFNwDtTJNnOvwjHke/giphy.mp4
+  Algeria, Algiers:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3o6Zt879fyTCNpfjA4/giphy.mp4
+  Turkey, Ankara:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZFbjrJUdBHuz8senxo/giphy.mp4
+  Mongolia, Ulaanbaatar:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/JUY1OQS4KIVX4NUrzs/giphy.mp4
+  China, Shanghai:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZEfptwy6Pp5isT20bS/giphy.mp4
+  Netherlands, Randstad:
+    description: The Randstad is the largest metropolitan area in the Netherlands, comprising the cities of Amsterdam, The Hague, Rotterdam, and Utrecht. It is a vibrant and dynamic region known for its rich history, diverse culture, and economic prosperity.
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/VIWn4jOf4zr7wPi5D0/giphy.mp4
+  England, Greater London:
+    description: London, the United Kingdom’s most populous city, is a captivating blend of historic grandeur and modern innovation, where Gothic cathedrals, Georgian townhouses, and sleek skyscrapers share the skyline 🏰. As a global cultural powerhouse, it's home to world-famous museums, West End theatres, and a vibrant music and fashion scene 🎭. Iconic landmarks like Big Ben, the Tower Bridge, and the London Eye make the city instantly recognizable and endlessly fascinating 🌉.
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jRHOfOfg4vCYkX7sFE/giphy.mp4
+  Sri Lanka, Colombo:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/K8xXVdNvAx6DC9o0rs/giphy.mp4
+    description: Colombo, the capital city of Sri Lanka, is a bustling metropolis that blends modernity with ancient traditions. It is known for its rich cultural heritage, vibrant street life, and delicious cuisine.
+  Azerbaijan, Baku:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/wqu9NT3DGEMUGS10Re/giphy.mp4
+  Georgia, Batumi:
+    description: Batumi, Georgia's largest city, is a vibrant coastal metropolis that combines modernity with natural beauty. It is known for its beautiful beaches, lush parks, and historic landmarks.
+  Vietnam,Ho Chi Minh City:
+    description: Ho Chi Minh City, formerly known as Saigon, is the largest city in Vietnam and a major economic and cultural center. It is known for its vibrant street life, delicious cuisine, and historical landmarks.
+  Iceland, Reykjavik:
+    description: Reykjavik, the capital city of Iceland, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  India, Delhi:
+    description: Delhi, the capital city of India, is a bustling metropolis that combines modernity with ancient traditions. It is known for its rich cultural heritage, vibrant street life, and delicious cuisine.
+  Switzerland, Zurich:
+    description: Zurich, the largest city in Switzerland, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  Poland, Warsaw:
+    video: https://media1.giphy.com/media/v1.Y2lkPTExMDA4NzRlYW5jaGtnN3J0MXRwbHJvdHY0bXludnR5MmVvdmtvZjZ3anM0cG43dCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xMQnm3STPecFDrrqA2/giphy.mp4
+  Philippines, Quezon City:
+    description: Quezon City, the capital city of the Philippines, is a bustling metropolis that combines modernity with ancient traditions. It is known for its rich cultural heritage, vibrant street life, and delicious cuisine.
+  South Africa, Johannesburg:
+    description: Johannesburg, the largest city in South Africa, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  Iceland, Reykjavík:
+    description: Reykjavík, the capital city of Iceland, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  New Zealand, Auckland:
+    description: Auckland, the largest city in New Zealand, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  Colombia, Bogotá:
+    description: Bogotá, the capital city of Colombia, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.

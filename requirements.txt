@@ -1,0 +1,15 @@
+kafka-python==2.0.2
+redis==5.0.1
+fastapi==0.109.0
+uvicorn==0.27.0
+aiohttp==3.9.1
+pandas==2.1.4
+plotly==5.18.0
+psycopg2-binary==2.9.9
+pyyaml==6.0.1
+matplotlib==3.8.2
+requests==2.31.0
+docker==7.0.0
+statsmodels==0.14.1
+scipy==1.11.4
+numpy==1.26.3 
