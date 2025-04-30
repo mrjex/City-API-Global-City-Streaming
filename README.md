@@ -18,7 +18,7 @@ The City API receives its requests primarily from the [Frontend Component](https
   - Exposes endpoints for raw and database logs from the Flink processor.
 
 - **Caching and Performance:**
-  - Uses Redis for caching city, country, and video data to improve response times and reduce redundant API calls.
+  - Uses [Redis](https://github.com/mrjex/Redis-Global-City-Streaming) for caching city, country, and video data to improve response times and reduce redundant API calls.
 
 - **Configuration and Control:**
   - Supports dynamic configuration updates (e.g., changing the set of tracked cities) via API endpoints.
