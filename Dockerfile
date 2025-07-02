@@ -19,25 +19,23 @@ WORKDIR /app
 COPY city-api/requirements.txt /app/
 RUN pip install --no-cache-dir -r /app/requirements.txt
 
-# Copy application files
-COPY city-api/ /app/city-api/
+# Copy all application files first
 COPY configuration.yml /app/
+COPY city-api/ /app/
 
 # Create necessary directories
 RUN mkdir -p \
-    /app/city-api/generated-artifacts/csvs \
-    /app/city-api/generated-artifacts/charts \
-    /app/city-api/generated-artifacts/pngs/equator-chart/none-filter-queries \
-    /app/city-api/generated-artifacts/pngs/equator-chart/continent-queries \
-    /app/city-api/generated-artifacts/pngs/equator-chart/timezone-queries \
-    /app/city-api/chart-helpers \
-    /app/city-api/apis/database \
-    /app/city-api/apis/database/logs
-
-# Make scripts executable
-RUN chmod +x /app/city-api/equatorChart.sh
-RUN chmod +x /app/city-api/countryCities.sh
-RUN chmod +x /app/city-api/realTimeCharts.sh 2>/dev/null || true
+    /app/generated-artifacts/csvs \
+    /app/generated-artifacts/charts \
+    /app/generated-artifacts/pngs/equator-chart/none-filter-queries \
+    /app/generated-artifacts/pngs/equator-chart/continent-queries \
+    /app/generated-artifacts/pngs/equator-chart/timezone-queries \
+    /app/chart-helpers \
+    /app/apis/database \
+    /app/apis/database/logs \
+    && chmod +x /app/equatorChart.sh \
+    && chmod +x /app/countryCities.sh \
+    && chmod +x /app/realTimeCharts.sh
 
 # Set environment variables
 ENV PYTHONPATH=/app
@@ -47,4 +45,4 @@ ENV PORT=8003
 EXPOSE 8003
 
 # Start the FastAPI server
-CMD ["python", "-m", "uvicorn", "city-api.main:app", "--host", "0.0.0.0", "--port", "8003"] 
+CMD ["python3", "-c", "import sys; sys.path.insert(0, '/app'); import uvicorn; uvicorn.run('main:app', host='0.0.0.0', port=8003)"]

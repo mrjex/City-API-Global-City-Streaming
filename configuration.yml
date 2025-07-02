@@ -1,0 +1,14 @@
+dynamicCities:
+  current: []
+  enabled: true
+  previousBatch: []
+visualizations:
+  charts:
+    equatorChart:
+      displayActualTrend: false
+      displayLinearTrend: false
+      displayLogarithmicTrend: true
+      pngOutput: false
+  queryConfig:
+    queryAttribute: ''
+    queryRequirement: ''
