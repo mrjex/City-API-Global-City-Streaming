@@ -48,10 +48,6 @@ class CityOverrides:
         return override
 
 class RedisCache:
-    # TTL constants
-    CITY_DATA_TTL = 604800  # 1 week
-    VIDEO_DATA_TTL = 604800  # 1 week
-    
     # Key prefixes for the new structure
     DYNAMIC_COUNTRIES_ALL_KEY = "dynamic:countries:all"
     DYNAMIC_COUNTRY_PREFIX = "dynamic:country:"
@@ -68,7 +64,7 @@ class RedisCache:
         self.overrides = CityOverrides()
         
     async def get_city_data(self, country: str) -> Optional[Dict[str, Any]]:
-        """Get cached city data with TTL check"""
+        """Get cached city data"""
         try:
             # Only use the new structure
             if self.redis_client.hexists("dynamic:country_codes", country):
@@ -133,16 +129,6 @@ class RedisCache:
                             city['description'] = override['description']
             
             # Store using only the new structure 
-            # COMMENTED OUT - no longer using old structure
-            # # 1. Old structure
-            # cache_key = f"city_data:{country}"
-            # self.redis_client.setex(
-            #     cache_key,
-            #     self.CITY_DATA_TTL,  # 1 week
-            #     json.dumps(data)
-            # )
-            
-            # 2. New structure
             # Add to dynamic countries set
             self.redis_client.sadd(self.DYNAMIC_COUNTRIES_ALL_KEY, country)
             
@@ -157,9 +143,6 @@ class RedisCache:
             pipe.hset(country_key, "country_code", country_code)
             pipe.hset(country_key, "cities", json.dumps(city_names))
             
-            # Set expiration on country key
-            pipe.expire(country_key, self.CITY_DATA_TTL)
-            
             # Store each city
             for city in cities:
                 city_name = city.get('city')
@@ -173,9 +156,6 @@ class RedisCache:
                     for field, value in city.items():
                         if field != 'city':  # Skip city name as it's in the key
                             pipe.hset(city_key, field, str(value))
-                    
-                    # Set expiration
-                    pipe.expire(city_key, self.CITY_DATA_TTL)
             
             # Execute all commands
             pipe.execute()
@@ -246,17 +226,6 @@ class RedisCache:
                         data['description'] = override['description']
             
             # Store using only new structure
-            
-            # COMMENTED OUT - no longer using old structure
-            # # 1. Old structure
-            # cache_key = f"capital_video:{country}"
-            # self.redis_client.setex(
-            #     cache_key,
-            #     self.VIDEO_DATA_TTL,  # 1 week
-            #     json.dumps(data)
-            # )
-            
-            # 2. New structure - update city data with video info
             if capital_city:
                 city_key = f"{self.DYNAMIC_CITY_PREFIX}{country}:{capital_city}"
                 
@@ -268,8 +237,6 @@ class RedisCache:
                 if data.get('description'):
                     pipe.hset(city_key, "description", data['description'])
                 
-                # Refresh TTL
-                pipe.expire(city_key, self.VIDEO_DATA_TTL)
                 pipe.execute()
             
             print(f"REDIS_LOGS: Set video data for {country} using new structure")
@@ -383,7 +350,6 @@ class RedisCache:
                 print(f"REDIS_LOGS: Adding new country {country} to Redis")
                 pipe.sadd(self.DYNAMIC_COUNTRIES_ALL_KEY, country)
                 pipe.hset(country_key, "cities", json.dumps([city_name]))
-                pipe.expire(country_key, self.CITY_DATA_TTL)
             else:
                 # Country exists, check if city is in the list
                 country_data = self.redis_client.hgetall(country_key)
@@ -407,9 +373,6 @@ class RedisCache:
             if "temperature" in existing_data:
                 # Keep the existing temperature
                 pipe.hset(city_key, "temperature", existing_data["temperature"])
-            
-            # Extend TTL for the city key
-            pipe.expire(city_key, self.CITY_DATA_TTL)
             
             # Execute all commands as a transaction
             result = pipe.execute()

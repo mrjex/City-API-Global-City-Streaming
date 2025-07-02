@@ -1,16 +1,5 @@
 [
     {
-        "city": "London",
-        "country": "United Kingdom",
-        "continent": "Europe",
-        "temperatureCelsius": 20.1,
-        "latitude": 51.5171,
-        "longitude": -0.1062,
-        "timeZoneNotation": "Europe/London",
-        "timeZoneOffset": "UTC+0",
-        "equatorDistance": 51.5171
-    },
-    {
         "city": "Stockholm",
         "country": "Sweden",
         "continent": "Europe",
@@ -22,17 +11,6 @@
         "equatorDistance": 59.3333
     },
     {
-        "city": "Moscow",
-        "country": "Russia",
-        "continent": "Europe",
-        "temperatureCelsius": 2.2,
-        "latitude": 55.7522,
-        "longitude": 37.6156,
-        "timeZoneNotation": "Europe/Moscow",
-        "timeZoneOffset": "UTC+3",
-        "equatorDistance": 55.7522
-    },
-    {
         "city": "Madrid",
         "country": "Spain",
         "continent": "Europe",
@@ -42,17 +20,6 @@
         "timeZoneNotation": "Europe/Madrid",
         "timeZoneOffset": "UTC+1",
         "equatorDistance": 40.4
-    },
-    {
-        "city": "Helsinki",
-        "country": "Finland",
-        "continent": "Europe",
-        "temperatureCelsius": 1.3,
-        "latitude": 60.176,
-        "longitude": 24.934,
-        "timeZoneNotation": "Europe/Helsinki",
-        "timeZoneOffset": "UTC+2",
-        "equatorDistance": 60.176
     },
     {
         "city": "Rome",
@@ -77,17 +44,6 @@
         "equatorDistance": 45.4386
     },
     {
-        "city": "Lisbon",
-        "country": "Portugal",
-        "continent": "Europe",
-        "temperatureCelsius": 18.3,
-        "latitude": 38.7167,
-        "longitude": -9.1333,
-        "timeZoneNotation": "Europe/Lisbon",
-        "timeZoneOffset": "UTC+0",
-        "equatorDistance": 38.7167
-    },
-    {
         "city": "Paris",
         "country": "France",
         "continent": "Europe",
@@ -108,17 +64,6 @@
         "timeZoneNotation": "Europe/Amsterdam",
         "timeZoneOffset": "UTC+1",
         "equatorDistance": 52.374
-    },
-    {
-        "city": "Chernobyl",
-        "country": "Ukraine",
-        "continent": "Europe",
-        "temperatureCelsius": 0.9,
-        "latitude": 51.2667,
-        "longitude": 30.2333,
-        "timeZoneNotation": "Europe/Kyiv",
-        "timeZoneOffset": "UTC+2",
-        "equatorDistance": 51.2667
     },
     {
         "city": "Palermo",
@@ -163,39 +108,6 @@
         "timeZoneNotation": "Europe/Budapest",
         "timeZoneOffset": "UTC+1",
         "equatorDistance": 47.5
-    },
-    {
-        "city": "Bucharest",
-        "country": "Romania",
-        "continent": "Europe",
-        "temperatureCelsius": 12.0,
-        "latitude": 44.4333,
-        "longitude": 26.1,
-        "timeZoneNotation": "Europe/Bucharest",
-        "timeZoneOffset": "UTC+2",
-        "equatorDistance": 44.4333
-    },
-    {
-        "city": "Sofia",
-        "country": "Bulgaria",
-        "continent": "Europe",
-        "temperatureCelsius": 11.3,
-        "latitude": 42.6833,
-        "longitude": 23.3167,
-        "timeZoneNotation": "Europe/Sofia",
-        "timeZoneOffset": "UTC+2",
-        "equatorDistance": 42.6833
-    },
-    {
-        "city": "Athens",
-        "country": "Greece",
-        "continent": "Europe",
-        "temperatureCelsius": 14.2,
-        "latitude": 37.9795,
-        "longitude": 23.7162,
-        "timeZoneNotation": "Europe/Athens",
-        "timeZoneOffset": "UTC+2",
-        "equatorDistance": 37.9795
     },
     {
         "city": "Warsaw",
@@ -275,14 +187,36 @@
         "equatorDistance": 50.8333
     },
     {
-        "city": "Ankara",
-        "country": "Turkey",
-        "continent": "Europe",
-        "temperatureCelsius": 0.0,
-        "latitude": 39.9272,
-        "longitude": 32.8644,
-        "timeZoneNotation": "Europe/Istanbul",
-        "timeZoneOffset": "UTC+3",
-        "equatorDistance": 39.9272
+        "city": "Abuja",
+        "country": "Nigeria",
+        "continent": "Africa",
+        "temperatureCelsius": 25.1,
+        "latitude": 9.1758,
+        "longitude": 7.1808,
+        "timeZoneNotation": "Africa/Lagos",
+        "timeZoneOffset": "UTC+1",
+        "equatorDistance": 9.1758
+    },
+    {
+        "city": "Luanda",
+        "country": "Angola",
+        "continent": "Africa",
+        "temperatureCelsius": 28.3,
+        "latitude": -8.8383,
+        "longitude": 13.2344,
+        "timeZoneNotation": "Africa/Luanda",
+        "timeZoneOffset": "UTC+1",
+        "equatorDistance": 8.8383
+    },
+    {
+        "city": "Kinshasa",
+        "country": "Democratic Republic of Congo",
+        "continent": "Africa",
+        "temperatureCelsius": 21.1,
+        "latitude": -4.3,
+        "longitude": 15.3,
+        "timeZoneNotation": "Africa/Brazzaville",
+        "timeZoneOffset": "UTC+1",
+        "equatorDistance": 4.3
     }
 ]
