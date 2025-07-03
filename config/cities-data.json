@@ -78,7 +78,7 @@
     "country_code": "FI",
     "cities": [
       "Helsinki",
-      "Helsinki",
+      "Helsinki 2 Test",
       "Espoo",
       "Tampere",
       "Tampere urban area",
@@ -87,6 +87,18 @@
       "East Helsinki",
       "Jyväskylä",
       "Kuopio"
+    ]
+  },
+  "Germany": {
+    "country_code": "FI",
+    "cities": [
+      "Berlin",
+      "Hamburg",
+      "Cologne",
+      "Frankfurt",
+      "Bremen",
+      "Stuttgart",
+      "Düsseldorf"
     ]
   },
   "France": {
@@ -102,21 +114,6 @@
       "Strasbourg",
       "Bordeaux",
       "Lille"
-    ]
-  },
-  "Germany": {
-    "country_code": "DE",
-    "cities": [
-      "Berlin",
-      "Berlin",
-      "Hamburg",
-      "Hamburg",
-      "Cologne",
-      "Frankfurt",
-      "Bremen",
-      "Stuttgart",
-      "Leipzig",
-      "Dortmund"
     ]
   },
   "India": {
@@ -137,16 +134,15 @@
   "Italy": {
     "country_code": "IT",
     "cities": [
-      "Metropolitan City of Rome",
-      "Metropolitan City of Milan",
-      "Metropolitan City of Naples",
       "Rome",
-      "Metropolitan City of Turin",
-      "Metropolitan City of Palermo",
-      "Metropolitan City of Bari",
-      "Metropolitan City of Catania",
-      "Metropolitan City of Bologna",
-      "Metropolitan City of Florence"
+      "Milan",
+      "Naples",
+      "Turin",
+      "Palermo",
+      "Bari",
+      "Catania",
+      "Bologna",
+      "Florence"
     ]
   },
   "Japan": {
@@ -162,6 +158,13 @@
       "Kyoto",
       "Saitama",
       "Hiroshima"
+    ]
+  },
+  "Iceland": {
+    "country_code": "IS",
+    "cities": [
+      "Keflavík",
+      "Akureyri"
     ]
   },
   "Mexico": {
@@ -228,14 +231,10 @@
     "country_code": "ES",
     "cities": [
       "Madrid",
-      "Madrid city",
       "Barcelona",
-      "Barcelona City",
       "Valencia",
-      "City of Valencia",
       "Seville",
       "Zaragoza",
-      "Zaragoza City",
       "Málaga"
     ]
   },

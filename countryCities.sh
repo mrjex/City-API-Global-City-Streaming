@@ -45,6 +45,7 @@ if [ "$CITIES_DATA" != "null" ]; then
     debug "Capital city from JSON: $CAPITAL_CITY"
 else
     debug "Country not found in cities-data.json, falling back to API..."
+
     # Store the curl response in a variable
     debug "Making API request for country code: $COUNTRY_CODE..."
     RESPONSE=$(curl -X GET "https://wft-geo-db.p.rapidapi.com/v1/geo/cities?countryIds=$COUNTRY_CODE&limit=$CITIES_LIMIT&sort=-population&types=CITY" \

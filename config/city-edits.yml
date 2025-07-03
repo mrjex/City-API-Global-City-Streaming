@@ -43,8 +43,8 @@ countries:
     description: Batumi, Georgia's largest city, is a vibrant coastal metropolis that combines modernity with natural beauty. It is known for its beautiful beaches, lush parks, and historic landmarks.
   Vietnam,Ho Chi Minh City:
     description: Ho Chi Minh City, formerly known as Saigon, is the largest city in Vietnam and a major economic and cultural center. It is known for its vibrant street life, delicious cuisine, and historical landmarks.
-  Iceland, Reykjavik:
-    description: Reykjavik, the capital city of Iceland, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
+  Iceland, Keflavík:
+    description: Keflavík is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
   India, Delhi:
     description: Delhi, the capital city of India, is a bustling metropolis that combines modernity with ancient traditions. It is known for its rich cultural heritage, vibrant street life, and delicious cuisine.
   Switzerland, Zurich:
@@ -55,8 +55,6 @@ countries:
     description: Quezon City, the capital city of the Philippines, is a bustling metropolis that combines modernity with ancient traditions. It is known for its rich cultural heritage, vibrant street life, and delicious cuisine.
   South Africa, Johannesburg:
     description: Johannesburg, the largest city in South Africa, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
-  Iceland, Reykjavík:
-    description: Reykjavík, the capital city of Iceland, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
   New Zealand, Auckland:
     description: Auckland, the largest city in New Zealand, is a vibrant and modern city that combines natural beauty with urban development. It is known for its unique architecture, vibrant nightlife, and rich cultural scene.
   Colombia, Bogotá:
