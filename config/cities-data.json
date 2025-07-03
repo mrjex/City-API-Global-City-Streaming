@@ -252,5 +252,16 @@
       "Enskede-Årsta-Vantör city district",
       "Jönköping"
     ]
+  },
+  "New Zealand": {
+    "country_code": "NZ",
+    "cities": [
+      "Auckland",
+      "Christchurch",
+      "Wellington",
+      "Tauranga",
+      "Lower Hutt",
+      "Dunedin"
+    ]
   }
 }
