@@ -263,5 +263,18 @@
       "Lower Hutt",
       "Dunedin"
     ]
+  },
+  "Netherlands": {
+    "country_code": "NL",
+    "cities": [
+      "Amsterdam",
+      "Rotterdam",
+      "The Hague",
+      "Utrecht",
+      "Eindhoven",
+      "Groningen",
+      "Tilburg",
+      "Almere"
+    ]
   }
 }
